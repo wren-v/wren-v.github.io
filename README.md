@@ -1,6 +1,6 @@
 # vogelschmidt.com
 
-My personal website and showcase
+My personal website and portfolio for showcasing my Computer Science work
 
 ## Technology
 
