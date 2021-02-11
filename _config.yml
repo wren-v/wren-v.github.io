@@ -1,0 +1,49 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Wren Vogelschmidt
+description: "A Computer Science Major at Colgate University"
+keywords: "Software Engineer, Intern, Colgate University, Wren Vogelschmidt"
+url: www.vogelschmidt.com
+
+google_analytics: UA-52446115-1
+repo: http://github.com/wren-v/wren-v.github.io
+
+# Author settings
+author:
+  name: Wren Vogelschmidt
+  job: Computer Science Major
+  bio: "..."
+  thumb: /images/author.png
+  email: wvogelschmidt@colgate.edu
+  url: www.vogelschmidt.com
+  github: https://github.com/wren-v
+  linkedin: https://linkedin.com/in/wren-vogelschmidt
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
