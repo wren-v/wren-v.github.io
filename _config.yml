@@ -21,7 +21,7 @@ sass:
 title: Wren Vogelschmidt
 description: "A Computer Science Major at Colgate University"
 keywords: "Software Engineer, Intern, Colgate University, Wren Vogelschmidt"
-baseurl: "www.vogelschmidt.com"
+url: www.vogelschmidt.com
 
 google_analytics: UA-52446115-1
 repo: https://github.com/wren-v/wren-v.github.io
